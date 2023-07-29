@@ -33,7 +33,7 @@ public class DatabaseConnection {
     public Connection getConnection() {
         String jdbcURL = "jdbc:mysql://localhost:3306/hrc?useSSL=false";
         String username = "root";
-        String password = "KIIT";
+        String password = "";
 
         Connection connection = null;
         try {
